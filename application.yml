@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ms-customer
+    
+    
+server:
+     port: ${SERVER_PORT:8930}
+eureka:
+  client:
+     servieUrl:
+       default
